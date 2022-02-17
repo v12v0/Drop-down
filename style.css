@@ -1,15 +1,16 @@
 .card {
-    width: 400px;
+    width: 300px;
     margin: 10px;
-    background-color: white;
+    background-color: #d3d3d3;
     border: solid 1px;
     box-shadow: 0 2p 2px 0 rbga(0,0,0,0.1);
 }
 
 .placeholder-for-image{
-    width: 400px;
+    width: 300px;
     height: 250px;
     background-color: red;
+
 }
 
 .expandMoreContent{
@@ -34,3 +35,9 @@
     border: 1px solid rgba(0,0,0,0.2);
     display: inline-block;
 }
+
+.recipeContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
